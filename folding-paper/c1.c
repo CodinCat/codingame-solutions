@@ -19,10 +19,10 @@ int get_side(struct paper *p, char *side)
 
 int main()
 {
-    char order[20];
-    fgets(order, 20, stdin);
-    char side[6];
-    fgets(side, 6, stdin);
+	char order[20];
+	fgets(order, 20, stdin);
+	char side[6];
+	fgets(side, 6, stdin);
 
 	struct paper p;
 	p.R = 1;
@@ -58,6 +58,6 @@ int main()
 			break;
 		}
 	}
-    printf("%d\n", get_side(&p, side));
-    return 0;
+	printf("%d\n", get_side(&p, side));
+	return 0;
 }
