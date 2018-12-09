@@ -1,1 +1,1 @@
-https://www.codingame.com/ide/puzzle/bank-robbers
+https://www.codingame.com/ide/puzzle/self-driving-car-testing
